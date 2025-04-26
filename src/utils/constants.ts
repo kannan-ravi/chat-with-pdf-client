@@ -1,2 +1,2 @@
 // export const environment: string = "http://localhost:8000";
-export const environment: string = "https://api-chat-with-pdf.netlify.app";
+export const environment: string = "https://chat-with-pdf-server.onrender.com/";

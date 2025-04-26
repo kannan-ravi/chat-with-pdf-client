@@ -20,7 +20,6 @@ const PDFUpload = () => {
       try {
         const response = await fetch(`${environment}/upload/pdf`, {
           method: "POST",
-          mode: "no-cors",
           body: formData,
         });
         const data = await response.json();
